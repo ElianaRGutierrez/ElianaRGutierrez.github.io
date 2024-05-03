@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Get To School 5</title>
-    </head>
-    <body style="background-color: black">
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #content {
+            background-color: aqua;
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #bigContatiner {
+            background-color: rgb(128, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #smallContainer {
+            width: 40%;
+        }
+
+        .smallBox {
+            background-color: white;
+            margin: 10px;
+            padding: ;
+        }
+
+        .bigBox {
+            background-color: white;
+            margin: 10px;
+            width: 40%;
+            padding: ;
+        }
+
+        .allBoxes {
+            border: 1px solid black;
+            box-shadow: 5px 5px 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Header</h1>
+        <div id="BigContainer">
+            <div id="SmallContainer">
+                <div class="smallBox allBoxes">
+                    <h2></h2>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Game</h2>
+                    <p>click <a href="game/index.html"></a></p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>images</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore at, sunt quidem quia
+                        reprehenderit placeat cupiditate in ad vel error qui repellat corporis praesentium fugiat
+                        tempora illum ipsa! Molestias, aliquid.</p>
+                </div>
+
+            </div>
+            <div class="bigBox allBoxes">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, labore ipsam. Voluptatum tempora,
+                    debitis veritatis harum hic architecto deserunt culpa ex error laudantium ullam dolores sunt quae et
+                    eveniet voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe libero veritatis illo, dolorum
+                    voluptatibus qui maiores. Eligendi cum ullam quasi maiores, consequuntur ex excepturi quos aliquid
+                    ipsam praesentium rem debitis?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem architecto neque, dignissimos nihil
+                    officia facilis, mollitia, eligendi possimus deleniti accusamus error numquam tempore voluptatibus
+                    excepturi ullam dolor incidunt! In, architecto?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
